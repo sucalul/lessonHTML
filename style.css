@@ -1,3 +1,74 @@
-.hogehoge {
-  color: #149;
+.introduction {
+  position: relative;
+  background-color: #BBCC35;
+  width: 1060px;
+  height: 1412px;
+  margin-left: 66px;
+  margin-top: 211px;
+}
+
+.vertical {
+  position: absolute;
+  left: 150px;
+  background-color: #fff;
+  width: 40px;
+  height: 1352px;
+}
+
+.side {
+  position: absolute;
+  left: 150px;
+  top: 1200px;
+  background-color: #fff;
+  width: 600px;
+  height: 40px;
+}
+
+.introduction h1 {
+  position: absolute;
+  left: 51.66px;
+  top: 67.29px;
+  color: #231815;
+  font-size: 86.45px;
+  font-family: helvetica;
+  letter-spacing: 54px;
+}
+
+.introduction > h1 > span{
+  color: #fff;
+}
+
+.service ul {
+  position: absolute;
+  top: 525.86px;
+  list-style: none;
+}
+
+.item {
+  color: #000000;
+  font-size: 14px;
+  font-family: Futura;
+  margin-bottom: 48.52px;
+}
+
+.about {
+  position: absolute;
+  top: 859px;
+  left: 159.34px;
+  color: #000000;
+  font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
+.about h2 {
+  font-size: 20px;
+}
+
+.about h3 {
+  font-size: 30px;
+}
+
+.about > p {
+  width: 500px;
+  word-break: normal;
+  font-size: 15px;
 }
